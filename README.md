@@ -12,13 +12,13 @@ Straightforward CKA practice labs derived from the CKA-PREP playlist. Every ques
 git clone https://github.com/hirushinidem/CKA-PREP-2025-v2.git
 
 ### run the setup script
-cd ~/CKA-PREP-2025-v2
-bash scripts/run-question.sh "Question-15 Etcd-Fix"
+- cd ~/CKA-PREP-2025-v2
+- bash scripts/run-question.sh "Question-15 Etcd-Fix"
 
 ### or manually
-cd "CKA-PREP-2025-v2/Question-15 Etcd-Fix"
-bash LabSetUp.bash
-cat Questions.bash
+- cd "CKA-PREP-2025-v2/Question-15 Etcd-Fix"
+- bash LabSetUp.bash
+- cat Questions.bash
 
 ## Available Questions
 | Question | Topic | Video |
