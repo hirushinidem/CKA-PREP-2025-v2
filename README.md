@@ -8,14 +8,14 @@ Straightforward CKA practice labs derived from the CKA-PREP playlist. Every ques
 
 ## How to Use
 
-# on killercoda CKA playground, clone the repo
+### on killercoda CKA playground, clone the repo
 git clone https://github.com/hirushinidem/CKA-PREP-2025-v2.git
 
-# run the setup script
+### run the setup script
 cd ~/CKA-PREP-2025-v2
 bash scripts/run-question.sh "Question-15 Etcd-Fix"
 
-# or manually
+### or manually
 cd "CKA-PREP-2025-v2/Question-15 Etcd-Fix"
 bash LabSetUp.bash
 cat Questions.bash
