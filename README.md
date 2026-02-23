@@ -7,12 +7,18 @@ Straightforward CKA practice labs derived from the CKA-PREP playlist. Every ques
 - `SolutionNotes.bash` � a step-by-step solution when you need a hint.
 
 ## How to Use
-1. Launch the CKA Killercoda playground or your own cluster.
-2. Clone this repo inside the environment.
-3. Pick a folder under `Question-*`.
-4. Run `./scripts/run-question.sh Question-01` or cd ~/CKA-PREP-2025-v2
-bash scripts/run-question.sh "Question-9 Network-Policy" to apply the setup and print the question text, or run `bash Question-01/LabSetUp.bash` manually.
-5. Work through the task, then consult `SolutionNotes.bash` if you need help.
+
+# on killercoda CKA playground, clone the repo
+git clone https://github.com/hirushinidem/CKA-PREP-2025-v2.git
+
+# run the setup script
+cd ~/CKA-PREP-2025-v2
+bash scripts/run-question.sh "Question-15 Etcd-Fix"
+
+# or manually
+cd "CKA-PREP-2025-v2/Question-15 Etcd-Fix"
+bash LabSetUp.bash
+cat Questions.bash
 
 ## Available Questions
 | Question | Topic | Video |
